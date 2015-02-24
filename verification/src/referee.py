@@ -2,7 +2,7 @@ from checkio_referee import RefereeBase
 
 import settings
 import settings_env
-from .tests import TESTS
+from tests import TESTS
 
 cover = """def cover(func, data):
     result = func(tuple(data))

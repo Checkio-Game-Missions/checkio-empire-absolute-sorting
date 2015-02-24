@@ -8,7 +8,7 @@ Each test is dict with
 """
 
 TESTS = {
-    "Level 1": [
+    "Level_1": [
         {
             "input": [-20, -5, 10, 15],
             "answer": [-5, 10, 15, -20],
