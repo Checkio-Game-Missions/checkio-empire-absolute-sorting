@@ -1,6 +1,6 @@
 {
-//	"base": {
-//		"file": "crystal-row-hints.md",
-//		"author": "bryukh"
-//	}
+	"base": {
+		"file": "absolute-sorting-hints.md",
+		"author": "bryukh"
+	}
 }
