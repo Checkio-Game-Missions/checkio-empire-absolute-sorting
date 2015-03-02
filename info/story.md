@@ -1,2 +1,2 @@
-Some jester have written minuses in troopers' numbers and ordering program is broken.
-We should update sorting algorithm.
+Some joker has written minuses on our troopers' numbers and now the ordering program is broken.
+We should update the sorting algorithm.
