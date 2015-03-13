@@ -1,6 +1,5 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeRank
 
-from checkio_referee import validators
 
 import settings
 import settings_env
@@ -14,7 +13,7 @@ cover = """def cover(func, data):
 """
 
 
-class Referee(RefereeBase):
+class Referee(RefereeRank):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
