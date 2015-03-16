@@ -1,5 +1,5 @@
 from checkio_referee import RefereeRank
-
+from checkio_referee import representations
 
 import settings
 import settings_env
@@ -18,6 +18,9 @@ class Referee(RefereeRank):
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
     FUNCTION_NAME = "absolute_sorting"
+    CALLED_REPRESENTATIONS = {
+        "python_3": representations.py_tuple_representation
+    }
     ENV_COVERCODE = {
         "python_2": cover,
         "python_3": cover,
