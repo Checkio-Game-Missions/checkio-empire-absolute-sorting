@@ -1,15 +1,27 @@
-function absolute_sorting(numbers_array) {
-    return numbers_array;
+function absoluteSorting(array) {
+    return array;
 }
 
-//
-//if __name__ == '__main__':
-//    # These "asserts" using only for self-checking and not necessary for auto-testing
-//    def check_it(array):
-//        if not isinstance(array, (list, tuple)):
-//            raise TypeError("The result should be a list or tuple.")
-//        return list(array)
-//
-//    assert check_it(absolute_sorting((-20, -5, 10, 15))) == [-5, 10, 15, -20], "Example"  # or (-5, 10, 15, -20)
-//    assert check_it(absolute_sorting((1, 2, 3, 0))) == [0, 1, 2, 3], "Positive numbers"
-//    assert check_it(absolute_sorting((-1, -2, -3, 0))) == [0, -1, -2, -3], "Negative numbers"
+
+// This function using only for self-checking and not necessary for auto-testing
+function simpleArrayEquals(first, second) {
+    if (first.length != second.length)
+        return false;
+
+    for (var i = 0; i < first.length; i++) {
+        if (first[i] != second[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// Rank_1
+// simpleArrayEquals(absolute_sorting([-20, -5, 10, 15]), [-5, 10, 15, -20]); // "Example"
+// simpleArrayEquals(absolute_sorting([1, 2, 3, 0]), [0, 1, 2, 3]); // "Positive numbers"
+// simpleArrayEquals(absolute_sorting([-1, -2, -3, 0]), [0, -1, -2, -3]); // "Negative numbers"
+
+// Rank_2
+// simpleArrayEquals(absolute_sorting([-100, 100, -100, 100, -100, -101]),
+//     [-100, -100, -100, 100, 100, -101]); // "Same by module"
+

@@ -6,5 +6,5 @@ be before positive. And they can be float.
 _Precondition Rank 2_
 
 ```
-all(isinstance(x, (int, float)) for x in array)
+∀ x ∈ array: x is integer OR x is float.
 ```

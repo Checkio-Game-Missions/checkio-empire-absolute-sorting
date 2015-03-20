@@ -17,7 +17,10 @@ class Referee(RefereeRank):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "absolute_sorting"
+    DEFAULT_FUNCTION_NAME = "absolute_sorting"
+    FUNCTION_NAME = {
+        "javascript": "absoluteSorting"
+    }
     CALLED_REPRESENTATIONS = {
         "python_3": representations.py_tuple_representation
     }
