@@ -15,10 +15,10 @@ cover = """def cover(func, data):
 
 class Referee(RefereeRank):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
     DEFAULT_FUNCTION_NAME = "absolute_sorting"
-    FUNCTION_NAME = {
+    FUNCTION_NAMES = {
         "javascript": "absoluteSorting"
     }
     CALLED_REPRESENTATIONS = {
