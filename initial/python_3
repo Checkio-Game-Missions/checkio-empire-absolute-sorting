@@ -18,3 +18,5 @@ if __name__ == '__main__':
     # Rank_2
     assert (check_it(absolute_sorting((-100, 100, -100, 100, -100, -101))) ==
             [-100, -100, -100, 100, 100, -101]), "Negative numbers"
+
+    print("Now that you're finished, hit the 'Check' button to review your code and earn sweet rewards!")
